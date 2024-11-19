@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>resume</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .section {
+            background-color: #fcfddc;
+            border: 1px solid gray;
+            border-radius: 8px; /* Burchaklarni yumshatish */
+            transition: background-color 0.5s, color 0.5s; /* Rang o'zgarishi uchun animatsiya */
+        }
+        .section:hover {
+            transform: translateY(-5px); /* Hoverda yuqoriga ko'tarish */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hoverda soyani kuchaytirish */
+        }
+    .link{
+      justify-content: space-around;
+      margin: 0 10px;
+    }
+    #link{
+      text-decoration: none;
+      color: rgb(49, 49, 250);
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="photo_2024-11-19_15-01-08.jpg" width="50px" height="50px" style="border-radius: 50px;" alt="">
+            </a>
+            <h1>Azimhon</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                   
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#text">Men Haqimda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ko'nikmalarim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">boshqa yunalishlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <header class="text-center mb-4">
+            <h1 class="text-primary">Azimhon</h1>
+            <p class="text-muted">HTML va CSS bo'yicha</p>
+            <p ><a id="link" href="https://github.com/coderbaba10" target="_blank">coder baba10</a> | Telefon: +99891 204 29 20</p>
+        </header>
+
+        <!-- about me -->
+        <main>
+            <section class="section mb-4 p-4 bg-light">
+                <h2 class="text-primary mb-3">About Me</h2>
+                <p id="text">
+                    Salom! Men Azimhon, HTML va CSS bo'yicha dasturchiman. Men o'z bilimlarimni doimiy ravishda kengaytirishga intilaman va yangi texnologiyalarni o'rganishni yoqtiraman. 
+                    Mening maqsadim - zamonaviy va foydalanuvchilarga qulay veb-saytlar yaratishdir. 
+                    Men jamoada ishlashni va yangi g'oyalarni muhokama qilishni yaxshi ko'raman. 
+                    Mening qiziqishlarim orasida dasturlash, dizayn va yangi texnologiyalarni o'rganish bor.
+                  </p>
+                  <p>
+                      Men o'z bilimlarimni amaliyotda qo'llashni va yangi tajribalar orttirishni xohlayman. 
+                      Agar sizda biror loyiha bo'lsa yoki hamkorlik qilishni xohlasangiz, men bilan bog'laning!
+                  </p>
+              </section>
+          </main>
+  
+          <!-- skills -->
+          <main>
+              <section class="section mb-4 p-3 bg-light rounded">
+                  <h2 class="text-primary mb-3">Ko'nikmalar</h2>
+                  <div class="mb-3">
+                      <div class="d-flex justify-content-between">
+                          <span>HTML5</span>
+                          <span>80%</span>
+                      </div>
+                      <div class="progress" style="height: 20px;">
+                          <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                  </div>
+  
+                  <div class="mb-3">
+                      <div class="d-flex justify-content-between">
+                          <span>CSS3</span>
+                          <span>70%</span>
+                      </div>
+                      <div class="progress" style="height: 20px;">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                  </div>
+  
+                  <div class="mb-3">
+                      <div class="d-flex justify-content-between">
+                          <span>java script</span>
+                          <span>20%</span>
+                      </div>
+                      <div class="progress" style="height: 20px;">
+                          <div class="progress-bar bg-info" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                  </div>
+              </section>
+  
+              <hr class="my-4"> 
+  
+              <section class="section mb-4 p-3 bg-light rounded">
+                  <h2 class="text-primary mb-3">Boshqa Yo'nalishlar</h2>
+  
+                  <div class="mb-3">
+                      <div class="d-flex justify-content-between">
+                          <span>Premier Pro</span>
+                          <span>80%</span>
+                      </div>
+                      <div class="progress" style="height: 20px;">
+                          <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                  </div>
+  
+                  <div class="mb-3">
+                      <div class="d-flex justify-content-between">
+                          <span>Color Draw</span>
+                          <span>60%</span>
+                      </div>
+                      <div class="progress" style="height: 20px;">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                  </div>
+  
+                  <div class="mb-3">
+                      <div class="d-flex justify-content-between">
+                          <span>python</span>
+                          <span>20%</span>
+                      </div>
+                      <div class="progress" style="height: 20px;">
+                          <div class="progress-bar bg-info" role="progressbar" style="width: 20%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                  </div>
+              </section>
+          </main>
+  
+          <footer class="text-center mt-4">
+            <div class="link">
+              <a href="https://t.me/Coderbaba10" target="_blank" class="text-muted me-3">
+                  <i class="fab fa-telegram"></i>
+              </a>
+              <a href="mailto:azimhonyusupov617@gmail.com" target="_blank" class="text-muted me-3">
+                  <i class="fab fa-google"></i>
+              </a>
+              <a href="https://www.instagram.com/azimhon_077/ " target="_blank" class="text-muted me-3">
+                  <i class="fab fa-instagram"></i>
+              </a>
+          </div>
+              <p class="text-muted">© 2024 Azimhon. Barcha huquqlar himoyalangan.</p>
+          </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
